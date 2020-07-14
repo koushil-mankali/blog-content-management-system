@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding:0;
+    margin:0;
+}
+.row{
+    padding:0;
+    margin:0;
+}
+.row>* {
+    padding: 0px;
+}
+body{
+    background-color:#f0efeb;
+}
+/* -------------Login Page----------- */
+.lform{
+    background-color: dodgerblue;
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.loginf{
+    min-height:40vh;
+    height:auto;
+    min-width:200px;
+    width:20%;
+    background-color:darkcyan;
+    box-shadow: 0px 0px 2px 0px white;
+    padding-bottom:10px;
+}
+.lsubmit{
+    display:flex;
+    justify-content:center;
+}
+.lsubmit label{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.lsubmit input{
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding:5px;
+}
+.lsubmit button{
+    font-weight:bold;
+    float:right;
+    outline:none;
+}
+.loginf p{
+    margin:10px 0 0 0 ;
+    display:flex;
+    justify-content: center;
+}
+.loginf a{
+    margin-left:10px;
+    color:white;
+    text-decoration: none;
+}
+/*---------Login Page End----------- */
+
+
+/*---------admin-sidebar Page ----------- */
+.abars{
+    display:none;
+}
+.innera{
+    padding-top:10px;
+    width:100%;
+    min-height:calc(100vh - 66px);
+    height:100%;
+    background-color:#264653;
+}
+
+.left-sidebar{
+    height:inherit;
+    width:inherit;
+}
+.Btitle{
+    width:100%;
+    background-color:#f4f1de;
+    padding:5px 0 5px 20px;
+}
+.Btitle h1 a{
+    text-decoration: none;
+    color:black;
+}
+.blist{
+    margin:20px 10px 0 10px;
+}
+.blist a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size:1.5rem;
+    background-color:#d62828;
+    padding:10px 50px 10px;
+    display: flex;
+    justify-content: center;
+}
+/*---------admin-sidebar Page End----------- */
+
+/*---------Dashboard Page ------------ */
+
+.dframe{
+    margin:auto;
+    width:90%;
+    height:auto;     
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.postframe{
+    height:200px;
+    width:300px;
+    margin:20px auto 20px;
+    background-color:#fb5607;
+}
+#pfheader h2{
+    margin-bottom:0;
+    height:40px;
+    background-color:#faf3dd;
+    color:#e63946;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#count{
+    height:120px;
+    width:300px;
+    font-size:1.1rem;
+    font-weight: 700;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+}
+#vbtn{
+    height:30px;
+    width:300px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: flex-end;
+    justify-content: center;
+    line-height: 10px;
+}
+#vbtn a{
+    text-decoration:none;
+    font-size:1.1rem;
+    font-weight:500;
+    color:white;
+    padding:10px;
+    background-color:green;
+    border-radius:5px;
+}
+
+.dsec2{
+    height:auto;
+    width:90%;
+    margin:0 auto 30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.dcomments{
+    height:400px;
+    width:400px;
+    margin:20px auto 20px;
+    background-color: #ffd6a5;
+}
+.dcomments h1{
+    padding:5px 0 5px 10px;
+    background-color:#ffa69e;
+    text-shadow: 0 0 2px black;
+}
+.ucomment{
+    display:flex;
+    background-color:#d8e2dc;
+    margin:10px 10px;
+}
+.vcomment h3{
+    margin-bottom:0;
+}
+.vimg img{
+    height:40px;
+    width:40px;
+    margin:10px 10px;
+}
+
+.rside{
+    height:400px;
+    width:600px;
+    margin:20px auto 20px;
+    background-color: #feeafa;
+}
+
+.rside h1{
+    padding:5px 10px;
+    text-shadow: 0 0 4px orange;
+    color:#ff206e;
+    background-color:#fbff12;
+}
+.larticles{
+    margin:10px 10px;
+    padding:10px;
+    background-color:#eff7f6;
+}
+.larticles p{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+/*---------Dashboard Page End----------- */
+
+
+
+/*---------Post Page ----------- */
+.cont{
+    width:90%;
+    height:auto;
+    margin:20px auto 20px;
+}
+#ph1{
+    text-decoration: underline;
+}
+.table-bordered{
+    border:2px;
+}
+td a{
+    text-decoration: none;
+    color:black;
+}
+/*---------Post Page End----------- */
+
+
+
+/*---------createpost Page ----------- */
+#crh1{
+    font-size:30px;
+    font-weight:bold;
+}
+.crbtn{
+    width:100px;
+}
+#cdesc{
+    height:auto;
+    width:100%;
+    min-height:500px;
+    border-radius:5px;
+    outline:none;
+    resize:none;
+    padding:10px;
+}
+#crselect{
+    width:100%;
+    height:40px;
+    border-radius:5px;
+
+}
+/*---------createpost Page End----------- */
+
+
+
+/*---------Settings Page ----------- */
+.createct{
+    padding:10px;
+    height:auto;
+    width:100%;
+    box-shadow:0 0 1px 1px white;
+    margin:20px auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.catint{
+    width:100%;
+    height:auto;
+}
+.int{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#catinput{
+    width:50%;
+    height:30px;
+    margin:10px 10px;
+    border-radius:5px;
+    border:none;
+    box-shadow:0 0 4px white;
+    outline:none;
+}
+.crtbtn{
+    float:right;
+    margin:0 20px 10px 0;
+}
+.slabel{
+    font-weight:500;
+    padding:10px;
+    font-size:1.1rem;
+}
+.sslabel{
+    display: flex;
+}
+/*---------Settings Page End----------- */
+
+/*--------------- Pagination Section  ---------------  */
+.pagination{
+    height:50px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* background-color: lightcoral; */
+}
+.paginationli{
+    height:40px;
+    width:50px;
+    margin-right:10px;
+    list-style: none;
+    background-color: lightgreen;
+    border-radius:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.paginationli a{
+    text-decoration: none;
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.prev,.next{
+    padding:0px 40px;
+}
+.pgactive{
+    background-color: limegreen;
+}
+/*--------------- Pagination Section End ---------------  */
+
+/*--------------- Error Section  ---------------  */
+.errpge{
+    height:100vh;
+    width:100vw;
+    background-color: magenta;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.txt h1{
+    font-weight: bold;
+    font-size:10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color:white;
+    text-shadow: 0 0 5px black;
+}
+.txt h3{
+    width:100vw;
+    font-weight: bold;
+    font-size:3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+    color:white;
+    text-shadow: 0 0 5px black;
+}
+
+/*--------------- Error Section End ---------------  */
+
+
+
+
+@media all and (max-width:767px){
+    .innera{
+        display:none;
+        min-height:calc(100vh - 66px);
+        height:100%;
+        width:40%;
+        position:absolute;
+    }
+    .dframe{
+        width:100%;
+    }
+    .abars{
+        float:right;
+        display:block;
+        margin:10px;
+    }
+}
+@media all and (max-width:450px){
+    .innera{
+        width:100%;
+        min-height:calc(100vh - 66px);
+        height:100%;
+    }
+}
