@@ -12,6 +12,10 @@ Blog CMS (Blog Content Management System) Project
 #											     #
 ##############################################################################################
 
+Front Page of BlogCMs
+
+<img src="BlogCMS.png" alt="blogcms">
+
 Technologies / Languages Used:
 ------------------------------
 Frontend :
@@ -36,6 +40,9 @@ Features:
 6.Fully functional Search Option.
 7.Pagination in all pages.
 
+Dashboard of BlogCMs
+
+<img src="dashboard.png" alt="dashboard">
 
 Security Features:
 ==================
