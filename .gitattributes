@@ -1,1 +1,5 @@
-
+# Auto detect text files and perform LF normalization
+*text=auto
+*.php linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
