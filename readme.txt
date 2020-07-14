@@ -28,8 +28,8 @@ Backend :
 
 Features:
 =========
-1.Admin can add users as admins / modirators.
-2.Admin / Modirator can publish article and later can also update article.
+1.Admin can add users as admins / moderators.
+2.Admin / Moderators can publish article and later can also update article.
 3.Article Images can also be updated.
 4.Post count will be updated on article publishing / updating / deleting.
 5.Dashboard has realtime posts / users / categorys count and also latest article updates.
@@ -39,7 +39,7 @@ Features:
 
 Security Features:
 ==================
-1.Users (Admin/Modrator) passwords are hased.
+1.Users (Admin/Moderator) passwords are hased.
 2.Better Session Handling.
 3.Error Page Management (:> If visitor directly enters page url / manipulates url / some code errors are managed and redirected to seperatly designed error page.)
 4.Visitors cant access floders (eg. css floder / javascript floder / images floder) which are part of blog. When they try to access folders they will be redirected to error page.
