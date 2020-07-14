@@ -28,7 +28,7 @@ Backend :
 
 Features:
 =========
-1.Admin can add users ad admins / modirators.
+1.Admin can add users as admins / modirators.
 2.Admin / Modirator can publish article and later can also update article.
 3.Article Images can also be updated.
 4.Post count will be updated on article publishing / updating / deleting.
